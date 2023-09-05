@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+    <span>Board</span>
+    <span class="spacer"></span>
+    <button type="button" mat-icon-button [matMenuTriggerFor]="userMenu"><mat-icon>account_circle</mat-icon></button>
+    <mat-menu #userMenu="matMenu">
+        <ng-board-login-widget></ng-board-login-widget>
+    </mat-menu>
+</mat-toolbar>

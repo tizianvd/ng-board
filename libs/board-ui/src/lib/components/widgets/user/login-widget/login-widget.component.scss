@@ -1,0 +1,16 @@
+.login-form {
+    padding: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-evenly;
+
+    button {
+        width: 100px;
+    }
+}
+
+mat-form-field {
+    width: 240px ;
+}
